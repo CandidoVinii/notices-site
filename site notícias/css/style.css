@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white url(../img/fundo.png) repeat-x;
+}
+/* !!! COMEÇO DO TOP !!! */
+#container{
+    width: 750px;
+    margin: 0 auto;
+   /* border: 1px solid red;*/
+}
+
+#top{
+    height: 150px;
+    padding-top: 25px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+/* !!! TÉRMINO DO TOP !!! */
+
+/* !!! COMEÇO DA BARRA DE NAVEGAÇÃO !!! */
+
+ul{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+#top ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#top ul li{
+    float: left;
+
+}
+
+#top ul a{
+    font-size: 0.9em;
+    display: block;
+    letter-spacing: 0.1em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: white;
+    background: url(../img/divisor.png) no-repeat left center;
+}
+
+#top ul .primeiro a{
+    background: none;
+}
+
+#top ul a:hover{
+    color: #69001d;
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.internacional #nav a#internacional,
+body.economia #nav a#economia,
+body.ciencia #nav a#ciencia,
+body.fotos #nav a#fotos
+{
+    color: white;
+    background: #de003e;
+    cursor: text;
+
+}
+/* !!! TÉRMINO DA BARRA DE NAVEGAÇÃO !!! */
+
+/* !!! COMEÇO CONTÉUDO DO SITE !!! */
+.conteudo{
+    width: 750px;
+    margin: 60px auto;
+}
+
+
+/* !!! CONFIGURAÇÃO DAS COLUNAS !!! */
+#primaria{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#duas-colunas #primaria{
+    width: 555px;
+    margin: 0 0 20px 195px;
+}
+#uma-coluna #primaria{
+    width: 750px;
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+}
+
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+}
+
+.caixa{
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+}
+/* !!! CONFIGURAÇÃO DAS COLUNAS !!! */
+
+
+/* !!! CONFIGURAÇÃO DA BARRA LATERAL !!! */
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: white;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid white;
+}
+
+#lateral ul a:hover{
+    background: white url(../img/marcador.png)no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    width: 120px;
+    font-size: 0.9em;
+    background-color: white;
+    padding: 5px;
+}
+
+input.submit{
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+/* !!! CONFIGURAÇÃO DA BARRA LATERAL !!! */
+
+
+/* !!! CONFIGURAÇÃO DO CONTÉUDO !!! */
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #bfbfbf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: white;
+}
+
+.entrevista h3{
+    background: #de003e;
+    color: black;
+}
+/* !!! CONFIGURAÇÃO DO CONTÉUDO !!! */
+
+
+
+/* !!! LISTA DE NOTICIAS!!! */
+
+
+#lista-noticia li{
+    padding: 2px;
+    border-bottom: 1px solid grey;
+    height: 62px;
+}
+#lista-noticia li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+#lista-noticia li a img{
+    float: left;
+    margin: 5px;
+}
+
+h4{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+p{
+    font-size: 0.7em;
+}
+/* !!! LISTA DE NOTICIAS !!! */
+
+footer .rodape{
+    width: auto;
+    background: #294c71;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
